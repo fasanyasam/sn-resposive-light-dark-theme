@@ -188,7 +188,7 @@
 /* General Styling  */
 
 body{
-  background-image: url(/images/bg.png);
+  background-image: url(../images/bg.png);
 }
 body{
 
@@ -233,6 +233,7 @@ button{
   color: white;
   border: none;
   border-radius: 5px; 
+  margin: 5px;
 }
 
 
