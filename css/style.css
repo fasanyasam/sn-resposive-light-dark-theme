@@ -186,11 +186,7 @@
 }
 
 /* General Styling  */
-header{
-  background-color: yellow;
-  margin-top: 0;
-  padding-top: 0;
-}
+
 body{
   background-image: url(/images/bg.png);
 }
