@@ -192,7 +192,12 @@ body{
 /* Form styling  */
 h1{
   text-align: center;
+  color: blue;
 }
+h1 span{
+  color: rgb(249, 139, 9);
+}
+
 h2{
   color: rgb(249, 139, 9);
 }

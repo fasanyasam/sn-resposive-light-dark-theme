@@ -46,8 +46,7 @@
   list-style: none;
   margin: 0;
   padding: 2.5em 0 0;
-  /* Hide shadow w/ -8px while 'closed' */
-  /*  */
+  
   min-height: 100%;
   width: 200px;
   background: #1a1a1a;
@@ -107,10 +106,7 @@
   z-index: 1000;
 }
 
-/* 
- We could us `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
+
 .main-menu:target + .backdrop,
 .main-menu[aria-expanded="true"] + .backdrop{
   position: absolute;
@@ -147,7 +143,7 @@
     display: none;
   }
     
-  /* Undo positioning of off-canvas menu */
+  
   .main-menu {
     position: relative;
 		left: auto;
@@ -159,7 +155,7 @@
   .main-menu ul {
     display: flex;
     
-    /* Undo off-canvas styling */
+  
     padding: 0;
     -webkit-box-shadow: none;
        -moz-box-shadow: none;
@@ -171,7 +167,7 @@
   
   /* nav items color */
   .main-menu a {
-    color: #06c;
+    color: rgb(7, 7, 7);
     border: 0 !important; /* Remove borders from off-canvas styling */
   }
   
@@ -194,6 +190,11 @@ body{
 /* Form styling  */
 h1{
   text-align: center;
+  color: blue;
+}
+h1 span{
+  color: rgb(249, 139, 9);
+}
 }
 h2{
   color: rgb(249, 139, 9);
