@@ -159,7 +159,7 @@
     max-width: 500px;
     height: auto;
     background-color: rgba(255, 206, 49, .5);
-    padding:20px 10px;
+    padding:20px 30px;
     text-align: center;
     margin: auto;
   }
@@ -214,7 +214,7 @@ h2{
   width: 80%;
   height: 70%;
   background-color: rgba(255, 206, 49, .5);
-  padding:20px 10px;
+  padding:20px 30px;
   text-align: center;
   margin: auto;
 }

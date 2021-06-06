@@ -49,7 +49,7 @@
   
   min-height: 100%;
   width: 200px;
-  background: #1a1a1a;
+  background: #383838
 }
 
 .main-menu a {
@@ -147,7 +147,7 @@
     max-width: 500px;
     height: auto;
     background-color: rgba(74, 72, 72, .4);
-    padding:20px 10px;
+    padding:20px 30px;
     text-align: center;
     margin: auto;
     color: #fff;
@@ -176,7 +176,7 @@
   
   /* nav items color */
   .main-menu a {
-    color: rgb(7, 7, 7);
+    color: white;
     border: 0 !important; /* Remove borders from off-canvas styling */
   }
   
@@ -217,12 +217,11 @@ a:hover, a:focus{
 }
 
 
-
 .form{
   width: 80%;
   height: 70%;
   background-color: rgba(74, 72, 72, .4);
-  padding:20px 10px;
+  padding:20px 30px;
   text-align: center;
   margin: auto;
   color: #fff;
