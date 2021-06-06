@@ -155,7 +155,14 @@
 		height: auto;
     display: block;
   }
-  
+  .form{
+    max-width: 500px;
+    height: auto;
+    background-color: rgba(255, 206, 49, .5);
+    padding:20px 10px;
+    text-align: center;
+    margin: auto;
+  }
   .main-menu ul {
     display: flex;
     
@@ -188,6 +195,7 @@ body{
   background-image: url(../images/bg.png);
   font-family: 'Montserrat', sans-serif;
   font: bold ;
+  background-size: cover;
 }
 /* Form styling  */
 h1{
